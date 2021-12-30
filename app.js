@@ -1,4 +1,4 @@
-import veriCek from "./veri.js";
+import getData from "./veri.js";
 
-let veri = await veriCek(1)
+let veri = await getData(1)
 console.log(veri)
